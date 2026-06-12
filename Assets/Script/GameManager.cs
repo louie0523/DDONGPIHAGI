@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour
         {
             Instantiate(Enemy, new Vector2(Random.Range(SpawnXmin, SpawnXmax), Random.Range(SpawnYmin, SpawnXmax)), Quaternion.identity);
             currentSpawnTime = 0f;
+            
         }
 
         ScoreText.text = "Score : " + Score;
